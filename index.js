@@ -2,7 +2,7 @@ var http = require('http');
 var os = require('os');
 var port = 8080;
 		
-
+//Rookie - 박성우
 http.createServer((req, res) => {
     console.log('Requested: ' + req.url);
     res.writeHead(200, { 'Content-Type':'text/html; charset=utf-8' }); 
